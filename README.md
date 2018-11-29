@@ -19,10 +19,19 @@
 > Lightning was a project that familiarized me with how animation works in Processing. The draw method used some basic x and y coordinates to write new line segments. I also used some if statements to create an invisible box that the lightning will show in. A source of pride in this project was undertsanding how the draw() method works. I learned that I have to pay close attention to when I draw the line so that it isn't layered behind the black background.
 ***
 * Dice [here](https://amentw.github.io/dice3/Dice) Source Code [there](https://github.com/AmentW/lightning2)
-> Dice didn't bring anything new the to table, but it did require some more planning. This lab had some opportunity to simplify code down to only far fewer lines within the show() method. This lab was pretty easy to complete once I figured out how each die needed to be drawn as. A source of pride for me in this project is my randC() method I wrote. It picks a random color within a range that creates a pastel-like color.
+> Dice didn't bring anything new the to table, but it did require some more planning. This lab had some opportunity to simplify code down to only far fewer lines within the show() method. This lab was pretty easy to complete once I figured out how each die needed to be drawn as. A source of pride for me in this project is my randC() method I wrote. It picks a random color within a range that creates a pastel-like color. It also has additional variables (r1, g1, and b1) that are a brighter, neon color.
+>This is the randC() method:
+```
+void randC() {
+    r = (int)((Math.random() * (255-155) +155));
+    g = (int)((Math.random() * (255-155) +155));
+    b = (int)((Math.random() * (255-155) +155));
 
->Here is the randC() method:
-
+    r1 = (int)((Math.random() * (155-50) +50));
+    g1 = (int)((Math.random() * (155-50) +50));
+    b1 = (int)((Math.random() * (155-50) +50));
+  }
+```
 ***
 * Chemo [here](https://amentw.github.io/chemotaxis4/) Source Code [there](https://github.com/AmentW/lightning2)
 > 
