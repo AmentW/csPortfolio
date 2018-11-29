@@ -38,7 +38,7 @@ void randC() {
 * **Chemotaxis** [here](https://amentw.github.io/chemotaxis4/) *Source Code* [there](https://github.com/AmentW/chemotaxis4)
     > Chemotaxis used objects to create lots of circles that could make different movements independently of eachother. The lab wanted us to use math.random() and incrememnt the x and y positions of each ball. Instead I used a new data type called PVectors. I think this was a source of pride in my code because I went out and learned some new content not being taught in class. I spend several hours reading through the Processing api and tutorial on PVectors. I took notes and actually studied the material, something I don't normally do. I now see different opportunities in my code where using a PVector would work better. I think I've developed a proper understanding of the PVector class. 
 
->This is some code using PVectors:
+    >This is some code using PVectors:
 ```
   Ball (int x, int y) {
     this.x = x;
@@ -75,7 +75,7 @@ void randC() {
 * **Starfield** [here](https://amentw.github.io/starfield5/starfield) *Source Code* [there](https://github.com/AmentW/starfield5)
     > Starfield took a great leap forward by using some polymorphic tools to simulate a beautiful night sky. This lab was by far the most involved out of them all. It used a Particle interface that implemented all the same methods to each class. Every class used the same methods, but had differences in how they performed them. For instance the NormalParticle class used some triginometry functions from the Math class to animate the Paritcles' elliptical movement. I think a source of pride for me in this project was calculating the different Particles' movements. I experimented a lot with changing values in the calculations and seeing how the Particles would react. I further manipulated their movements by adding if statements that acted as boundaries for how far the particle can move. 
 
-> Here is the NormalParticle class. Notice the boundaries and how they permanently change the particles' orbit.
+    > Here is the NormalParticle class. Notice the boundaries and how they permanently change the particles' orbit.
 ```
 interface Particle {
   void move();
