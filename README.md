@@ -34,8 +34,42 @@ void randC() {
 ```
 ***
 * Chemo [here](https://amentw.github.io/chemotaxis4/) Source Code [there](https://github.com/AmentW/chemotaxis4)
-> 
+> Chemotaxis used objects to create lots of circles that could make different movements independently of eachother. The lab wanted us to use math.random() and incrememnt the x and y positions of each ball. Instead I used a new data type called PVectors. I think this was a source of pride in my code because I went out and learned some new content not being taught in class. I spend several hours reading through the Processing api and tutorial on PVectors. I took notes and actually studied the material, something I don't normally do.
+>This is some code using PVectors:
+```
+  Ball (int x, int y) {
+    this.x = x;
+    this.y = y;
+    location = new PVector(this.x, this.y);
+    velocity = new PVector(((int)(Math.random() * (4)) +1) * posNeg(), ((int)(Math.random() * (4)) +1) * posNeg());
+    acceleration = new PVector(this.x/500, this.y/500);
+  }
+  void randC() {
+    r = ((int)(Math.random() * (155) + 100));
+    g = ((int)(Math.random() * (155) + 100));
+    b = ((int)(Math.random() * (155) + 100));
+  }
+  void move() {
+    location.add(velocity);
+    velocity.add(acceleration);
+  }
+  void show() {
+    if (location.x > 535 || location.x < 65) {
+      velocity.x *= -1;
+      randC();
+      fill(r, g, b);
+    }
+    if (location.y >735 || location.y < 65) {
+      velocity.y *= -1;
+      randC();
+      fill(r, g, b);
+    }
+    ellipse(location.x, location.y, 15, 15);
+  }
+}
+```
 ***
 * Starfield [here](https://amentw.github.io/starfield5/) Source Code [there](https://github.com/AmentW/lightning2)
 > 
 ***
+
