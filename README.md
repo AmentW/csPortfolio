@@ -20,7 +20,7 @@
  <br>
  * **Lightning** [here](https://amentw.github.io/lightning2/Lightning/) *Source Code* [there](https://github.com/AmentW/lightning2)
     > Lightning was a project that familiarized me with how animation works in Processing. The draw method used some basic x and y coordinates to write new line segments. I also used some if statements to create an invisible box that the lightning will show in. A source of pride in this project was undertsanding how the draw() method works. I learned that I have to pay close attention to when I draw the line so that it isn't layered behind the black background.
-
+</br>
 </details>
 
  <details>
@@ -41,6 +41,7 @@ void randC() {
     b1 = (int)((Math.random() * (155-50) +50));
   }
 ```
+</br>
 </details>
 
  <details>
@@ -82,6 +83,7 @@ void randC() {
   }
 }
 ```
+</br>
 </details>
 
  <details>
@@ -143,6 +145,7 @@ class NormalParticle implements Particle {
   }
 }
 ```
+</br>
 </details>
 
 
