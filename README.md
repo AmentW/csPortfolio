@@ -76,7 +76,7 @@ void randC() {
 ***
 
 * **Starfield** [here](https://amentw.github.io/starfield5/starfield) *Source Code* [there](https://github.com/AmentW/starfield5)
-    > Starfield took a great leap forward by using some polymorphic tools to simulate a beautiful night sky. This lab was by far the most involved out of them all. It used a Particle interface that implemented all the same methods to each class. Every class used the same methods, but had differences in how they performed them. For instance the NormalParticle class used some triginometry functions from the Math class to animate the Paritcles' elliptical movement. I think a source of pride for me in this project was calculating the different Particles' movements. I experimented a lot with changing values in the calculations and seeing how the Particles would react. I further manipulated their movements by adding if statements that acted as boundaries for how far the particle can move. 
+    > Starfield took a great leap forward by using some polymorphic tools to simulate a beautiful night sky. This lab was by far the most involved out of them all. It used a Particle interface that implemented all the same methods to each class. Every class used the same methods, but had differences in how they performed them. For instance the NormalParticle class used some triginometry functions from the Math class to animate the Paritcles' elliptical movement. I think a source of pride for me in this project was calculating the different particles' movements. I experimented a lot with changing values in the calculations and seeing how the particles would react. I further manipulated their movements by adding if statements that acted as boundaries for how far the particle can move. 
 
     > Here is the NormalParticle class. Notice the boundaries and how they permanently change the particles' orbit.
 ```
@@ -136,7 +136,27 @@ class NormalParticle implements Particle {
 - **Identify the most significant hurdle you encountered last trimester. Write about what it was and how it was resolved.**
     > The most significant hurdle I faced was working on the Starfield project. I haven't worked with interfaces in the past and in the first few iterations of my code I could tell I wasn't using them properly. I asked my peers about interfaces, but they didn't know very much about them either. To find the answer to my questions I read information about interfaces on Stackoverflow and the Java api. It took me a while to understand that an interface is used when you have many classes with similar traits, but minor differences. I now undertsand how powerful interfaces can be and will look for more opportunities to include them in my code. 
 
+***
+
 - **Describe the incremental and iterative development process of your included code, focusing on two distinct points in the development process.**
-    >
+    > In the Starfield project I spent a large ammount of time tinkering with different PI values. By changing the divisor of the pie value, I can create a wider range of cirlular paths. 
+    ```
+    for ( int i = 0; i< p.length; i++) {
+    p[i] = new NormalParticle(pie);
+    pie += Math.PI/24;
+  }
+    ```
+    My earlier editions had a lot more objects being created and drawn. To make sure the particles don't overlap I can change that divisor, but when you get to about 1000-10000 objects being drawn, the difference in PI values isn't large enough to make a difference.
+    
+    > Another significant section of my code from Starfield is an if-statement that changes the color of the particles after a given time interval. I created this if-statement so change the color of each ball to become a random new value after 100 loops of the show() method. 
+    ```
+    if (test == 0) {
+      randC();
+      test = 100;
+    }
+    test --;
+    ```
+    I initally tried using the timer and delay methods in Processing but I couldn't figure out how to make it work the way I want it to. This little if statement is what makes my Starfield lab look so pretty. If I hadn't used the if-statement, my particles would be constantly changing color, making it impossible to even see the things. 
+    I created Starfield mostly independetly, the only times it was collaborative were when I became stuck and needed some help. I got assistance from both my peers and the internet. I consulted the internet whenever I needed a quick answer to something I knew was an easy fix. I also got help from my peers, however, the advice I got from them often wasn't the answer to my problem. I can only expect this as my peers are also coming up with the same problems. What I did find constructive was the ideas my peers had inspired me to make unique tweaks to my program, like the NormalParticles orbit. 
 
-
+***
