@@ -134,5 +134,9 @@ class NormalParticle implements Particle {
 
 ### Here are the responses to the Portfolio Reflection
 - **Identify the most significant hurdle you encountered last trimester. Write about what it was and how it was resolved.**
-    > 
+    > The most significant hurdle I faced was working on the Starfield project. I haven't worked with interfaces in the past and in the first few iterations of my code I could tell I wasn't using them properly. I asked my peers about interfaces, but they didn't know very much about them either. To find the answer to my questions I read information about interfaces on Stackoverflow and the Java api. It took me a while to understand that an interface is used when you have many classes with similar traits, but minor differences. I now undertsand how powerful interfaces can be and will look for more opportunities to include them in my code. 
+
+- **Describe the incremental and iterative development process of your included code, focusing on two distinct points in the development process.**
+    >
+
 
