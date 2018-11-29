@@ -16,13 +16,14 @@
 
 ### Here are some of the projects I made in Java using Processing
 <details>
- <summary>Lightning</summary>
+ <summary>LIGHTNING</summary>
 * **Lightning** [here](https://amentw.github.io/lightning2/Lightning/) *Source Code* [there](https://github.com/AmentW/lightning2)
     > Lightning was a project that familiarized me with how animation works in Processing. The draw method used some basic x and y coordinates to write new line segments. I also used some if statements to create an invisible box that the lightning will show in. A source of pride in this project was undertsanding how the draw() method works. I learned that I have to pay close attention to when I draw the line so that it isn't layered behind the black background.
 
 <details>
 ***
  <details>
+  <summary>DICE</summary>
 * **Dice** [here](https://amentw.github.io/dice3/Dice) *Source Code* [there](https://github.com/AmentW/lightning2)
     > Dice didn't bring anything new the to table, but it did require some more planning. This lab had some opportunity to simplify code down to only far fewer lines within the show() method. This lab was pretty easy to complete once I figured out how each die needed to be drawn as. A source of pride for me in this project is my randC() method I wrote. It picks a random color within a range that creates a pastel-like color. It also has additional variables (r1, g1, and b1) that are a brighter, neon color. This color changer is called elsewhere in my code to change the color of every dice, and set of die holes. I used this method in my other programs too.
 
@@ -41,6 +42,7 @@ void randC() {
 <details>
 ***
  <details>
+  <summary>CHEMOTAXIS</summary>
 * **Chemotaxis** [here](https://amentw.github.io/chemotaxis4/) *Source Code* [there](https://github.com/AmentW/chemotaxis4)
     > Chemotaxis used objects to create lots of circles that could make different movements independently of eachother. The lab wanted us to use math.random() and incrememnt the x and y positions of each ball. Instead I used a new data type called PVectors. I think this was a source of pride in my code because I went out and learned some new content not being taught in class. I spend several hours reading through the Processing api and tutorial on PVectors. I took notes and actually studied the material, something I don't normally do. I now see different opportunities in my code where using a PVector would work better. I think I've developed a proper understanding of the PVector class. 
 
@@ -80,6 +82,7 @@ void randC() {
 <details>
 ***
  <details>
+  <summary>STARFIELD</summary>
 * **Starfield** [here](https://amentw.github.io/starfield5/starfield) *Source Code* [there](https://github.com/AmentW/starfield5)
     > Starfield took a great leap forward by using some polymorphic tools to simulate a beautiful night sky. This lab was by far the most involved out of them all. It used a Particle interface that implemented all the same methods to each class. Every class used the same methods, but had differences in how they performed them. For instance the NormalParticle class used some triginometry functions from the Math class to animate the Paritcles' elliptical movement. I think a source of pride for me in this project was calculating the different Particles' movements. I experimented a lot with changing values in the calculations and seeing how the Particles would react. I further manipulated their movements by adding if statements that acted as boundaries for how far the particle can move. 
 
