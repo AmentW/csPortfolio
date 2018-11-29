@@ -156,7 +156,7 @@ class NormalParticle implements Particle {
     }
     test --;
     ```
-    I initally tried using the timer and delay methods in Processing but I couldn't figure out how to make it work the way I want it to. This little if statement is what makes my Starfield lab look so pretty. If I hadn't used the if-statement, my particles would be constantly changing color, making it impossible to even see the things. 
-    I created Starfield mostly independetly, the only times it was collaborative were when I became stuck and needed some help. I got assistance from both my peers and the internet. I consulted the internet whenever I needed a quick answer to something I knew was an easy fix. I also got help from my peers, however, the advice I got from them often wasn't the answer to my problem. I can only expect this as my peers are also coming up with the same problems. What I did find constructive was the ideas my peers had inspired me to make unique tweaks to my program, like the NormalParticles orbit. 
+    > I initally tried using the timer and delay methods in Processing but I couldn't figure out how to make it work the way I want it to. This little if statement is what makes my Starfield lab look so pretty. If I hadn't used the if-statement, my particles would be constantly changing color, making it impossible to even see the things. 
+    > I created Starfield mostly independetly, the only times it was collaborative were when I became stuck and needed some help. I got assistance from both my peers and the internet. I consulted the internet whenever I needed a quick answer to something I knew was an easy fix. I also got help from my peers, however, the advice I got from them often wasn't the answer to my problem. I can only expect this as my peers are also coming up with the same problems. What I did find constructive was the ideas my peers had inspired me to make unique tweaks to my program, like the NormalParticles orbit. 
 
 ***
