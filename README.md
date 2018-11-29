@@ -130,4 +130,7 @@ class NormalParticle implements Particle {
 ```
 ***
 
-### Here are the answers to the Portfolio Reflection
+### Here are the responses to the Portfolio Reflection
+-**Identify the most significant hurdle you encountered last trimester. Write about what it was and how it was resolved.**
+   -test
+
