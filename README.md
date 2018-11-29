@@ -8,7 +8,7 @@
   * This webpage is called pagePage. I created a new webpage idea and added even more HTML.
 * WebPage3 [here](https://amentw.github.io/testWeb/finalPage)
   * This webpage is called finalPage. I made improvements to pagePage by adding some CSS styling to it.
-        > test
+> While tinkering with the HTML and CSS I soon learned how tedious the formatting can become. None the less I recognize it's utility in web design with Javascript. I think a source of pride in my 
 * Lightning! [here](https://amentw.github.io/lightning2/Lightning/)
 * Dice [here](https://amentw.github.io/dice3/Dice)
 * Chemo [here](https://amentw.github.io/chemotaxis4/chemo)
