@@ -70,7 +70,59 @@ void randC() {
 ```
 ***
 * Starfield [here](https://amentw.github.io/starfield5/starfield) Source Code [there](https://github.com/AmentW/starfield5)
-> Starfield took a great leap forward by using some polymorphic tools to simulate a beautiful night sky. This lab was by far the most involved out of them all. It used a Particle interface that implemented all the same methods to each class. Every class used the same methods, but had differences in how they performed them. For instance the NormalParticle class used some triginometry functions from the Math class to animate the Paritcles' elliptical movement. I think a source of pride for me in this project was calculating the different Particles' movements. I experimented a lot with different ways 
-
+> Starfield took a great leap forward by using some polymorphic tools to simulate a beautiful night sky. This lab was by far the most involved out of them all. It used a Particle interface that implemented all the same methods to each class. Every class used the same methods, but had differences in how they performed them. For instance the NormalParticle class used some triginometry functions from the Math class to animate the Paritcles' elliptical movement. I think a source of pride for me in this project was calculating the different Particles' movements. I experimented a lot with changing values in the calculations and seeing how the Particles would react. I further manipulated thier movements by adding if statements that acted as boundaries for how far the particle can move. 
+> Here is the NormalParticle class. Notice the boundaries and how they permanently change the particles' orbit.
+```
+interface Particle {
+  void move();
+  void show();
+  void randC();
+}
+class NormalParticle implements Particle {
+  double x, y, angle, speed;
+  int r, g, b;
+  int test = 0;
+  int timer = 0;
+  NormalParticle(double pie) {
+    x = width/2;
+    y = height/2;
+    angle = pie;
+    speed = 10;
+  }
+  void move() {
+    x += Math.cos(angle) * speed;
+    y += Math.sin(angle) * speed;
+    angle += .047;
+    // X boundaries
+    if ( x > 830) {
+      x = 830;
+    } else if (x < 170) {
+      x = 170;
+    }
+    // Y boundaries
+    if ( y > 830) {
+      y = 830;
+    } else if (y < 170) {
+      y = 170;
+    }
+  }
+  // color change
+  void randC() {
+    r = ((int)(Math.random() * (155) + 100));
+    g = ((int)(Math.random() * (155) + 100));
+    b = ((int)(Math.random() * (155) + 100));
+  }
+  void show() {
+    noStroke();
+    if (test == 0) {
+      randC();
+      test = 100;
+    }
+    test --;
+    fill(r, g, b);
+    ellipse((int)x, (int)y, 20, 20);
+  }
+}
+```
 ***
 
