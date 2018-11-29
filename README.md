@@ -33,7 +33,7 @@ void randC() {
   }
 ```
 ***
-* Chemo [here](https://amentw.github.io/chemotaxis4/) Source Code [there](https://github.com/AmentW/lightning2)
+* Chemo [here](https://amentw.github.io/chemotaxis4/) Source Code [there](https://github.com/AmentW/chemotaxis4)
 > 
 ***
 * Starfield [here](https://amentw.github.io/starfield5/) Source Code [there](https://github.com/AmentW/lightning2)
