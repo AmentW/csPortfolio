@@ -4,11 +4,11 @@
 ### Here are some of my webistes I made using HTML and CSS. 
 
 
-* WebPage1 [here](https://amentw.github.io/testWeb/dogPage/) Source Code [there](https://github.com/AmentW/testWeb/dogPage)
+* WebPage1 [here](https://amentw.github.io/testWeb/dogPage/) Source Code [there](https://github.com/AmentW/testWeb/)
   * This webpage is called dogPage. It was my first crack at website coding, so it doesn't have very much HTML.
-* WebPage2 [here](https://amentw.github.io/testWeb/pagePage) Source Code [there](https://github.com/AmentW/testWeb/pagePage)
+* WebPage2 [here](https://amentw.github.io/testWeb/pagePage) Source Code [there](https://github.com/AmentW/testWeb/)
   * This webpage is called pagePage. I created a new webpage idea and added even more HTML.
-* WebPage3 [here](https://amentw.github.io/testWeb/finalPage) Source Code [there](https://github.com/AmentW/testWeb/finalPage)
+* WebPage3 [here](https://amentw.github.io/testWeb/finalPage) Source Code [there](https://github.com/AmentW/testWeb/)
   * This webpage is called finalPage. I made improvements to pagePage by adding some CSS styling to it.
 > While tinkering with the HTML and CSS I soon learned how tedious the formatting can become. None the less I recognize it's utility in web design with Javascript. I think a source of pride in this project was my CSS styling. In my project I used some CSS to edit my text and background with colors. I also used it to link different sections of my website.
 ***
