@@ -43,7 +43,7 @@ void randC() {
     this.x = x;
     this.y = y;
     location = new PVector(this.x, this.y);
-    velocity = new PVector(((int)(Math.random() * (4)) +1) * posNeg(), ((int)(Math.random() * (4)) +1) * posNeg());
+    velocity = new PVector(((int)(Math.random() * (4)) +1), ((int)(Math.random() * (4)) +1));
     acceleration = new PVector(this.x/500, this.y/500);
   }
   void randC() {
