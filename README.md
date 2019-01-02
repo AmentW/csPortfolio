@@ -75,7 +75,7 @@ void randC() {
 ```
 ***
 
-* **Starfield** [here](https://github.com/AmentW/starfield5/tree/gh-pages/starfield) *Source Code* [there](https://github.com/AmentW/starfield5)
+* **Starfield** [here](https://amentw.github.io/starfield5/) *Source Code* [there](https://github.com/AmentW/starfield5)
     > Starfield took a great leap forward by using some polymorphic tools to simulate a beautiful night sky. This lab was by far the most involved out of them all. It used a Particle interface that implemented all the same methods to each class. Every class used the same methods, but had differences in how they performed them. For instance the NormalParticle class used some triginometry functions from the Math class to animate the Paritcles' elliptical movement. I think a source of pride for me in this project was calculating the different particles' movements. I experimented a lot with changing values in the calculations and seeing how the particles would react. I further manipulated their movements by adding if statements that acted as boundaries for how far the particle can move. 
 
     > Here is the NormalParticle class. Notice the boundaries and how they permanently change the particles' orbit.
