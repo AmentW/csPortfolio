@@ -20,7 +20,7 @@
     
 ***
     
-* **Dice** [here](https://amentw.github.io/dice3/) *Source Code* [there](https://github.com/AmentW/lightning2)
+* **Dice** [here](https://amentw.github.io/dice3/) *Source Code* [there](https://github.com/AmentW/dice3)
     > Dice didn't bring anything new the to table, but it did require some more planning. This lab had some opportunity to simplify code down to only far fewer lines within the show() method. This lab was pretty easy to complete once I figured out how each die needed to be drawn as. A source of pride for me in this project is my randC() method I wrote. It picks a random color within a range that creates a pastel-like color. It also has additional variables (r1, g1, and b1) that are a brighter, neon color. This color changer is called elsewhere in my code to change the color of every dice, and set of die holes. I used this method in my other programs too.
 
     >This is the randC() method:
